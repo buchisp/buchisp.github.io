@@ -10996,8 +10996,8 @@ html {
 
 @media (min-width: 992px) {
   .masthead {
-    padding-top: calc(6rem + 104px);
-    padding-bottom: 6rem;
+    padding-top: calc(12rem + 104px);
+    padding-bottom: 12rem;
   }
   .masthead .masthead-heading {
     font-size: 4rem;
@@ -11015,6 +11015,9 @@ html {
   border-radius: 0.5rem;
   overflow: hidden;
 }
+
+.portfolio-item{ border:solid 2px #cccccc; }
+
 .portfolio .portfolio-item .portfolio-item-caption {
   position: absolute;
   top: 0;
