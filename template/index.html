@@ -11,8 +11,12 @@
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
         <!-- Google fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
         <script type="text/javascript">
@@ -47,7 +51,7 @@
                 <!-- Masthead Heading-->
                 <h1 class="masthead-heading text-uppercase mb-0">HaruChika</h1>
                 <!-- Masthead Avatar Image-->
-                <img class="masthead-avatar" src="assets/img/img_romaicon.png" alt="..." />
+               
                 <!-- Icon Divider-->
                 <div class="divider-custom divider-light">
                     <div class="divider-custom-line"></div>
@@ -80,6 +84,33 @@
                             <img class="img-fluid" src="assets/img/portfolio/ebookstore.jpg" alt="..." />
                         </div>
                     </div>
+                    <!-- Portfolio Item 4-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/hq40th.jpg" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 14-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal14">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/lumine_floor.jpg" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 5-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal5">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/paypaydome.jpg" alt="..." />
+                        </div>
+                    </div>
                     <!-- Portfolio Item 2-->
                     <div class="col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
@@ -98,22 +129,13 @@
                             <img class="img-fluid" src="assets/img/portfolio/kaihosns.jpg" alt="..." />
                         </div>
                     </div>
-                    <!-- Portfolio Item 4-->
+                    <!-- Portfolio Item 13-->
                     <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal13">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/hq40th.jpg" alt="..." />
-                        </div>
-                    </div>
-                    <!-- Portfolio Item 5-->
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal5">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/paypaydome.jpg" alt="..." />
+                            <img class="img-fluid" src="assets/img/portfolio/tenseisyozyo.jpg" alt="..." />
                         </div>
                     </div>
                     <!-- Portfolio Item 6-->
@@ -141,6 +163,15 @@
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
                             <img class="img-fluid" src="assets/img/portfolio/tenkocover.jpg" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 15-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal15">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/fukakunimo.jpg" alt="..." />
                         </div>
                     </div>
                     <!-- Portfolio Item 9-->
@@ -290,26 +321,28 @@
             <div class="modal-dialog modal-xl">
                 <div class="modal-content">
                     <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
-                    <div class="modal-body pb-5">
+                    <div class="modal-body text-center pb-5">
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">SBクリエイティブ電子書籍ストア</h2>
-                                    <!-- Portfolio Modal - Image-->
-                                     <div class="divider-custom">
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">SBCr電子書籍ストア</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
                                         <div class="divider-custom-icon"><i class="fas fa-diamond"></i></div>
                                         <div class="divider-custom-line"></div>
                                     </div>
+                                    <!-- Portfolio Modal - Image-->
                                     <img class="img-fluid rounded mb-5" src="assets/img/portfolio/ebookstore.jpg" alt="..." />
                                     <!-- Portfolio Modal - Text-->
-                                    <h3 class="mb-3">コンセプト・課題</h3>
-                                    <p>・自社サイト「ロマンス ライブラリ」から、ロマンスコミック以外も自社の書籍を取り扱うためのサイトリニューアル。基本的に既存のデザイン、HTMLは残すという条件でUIの制作とディレクションを行った。</p>
-                                    <p class="text-center"><button class="btn btn-primary" data-bs-dismiss="modal">
+                                    <p class="mb-4">自社サイト「ロマンス ライブラリ」から、ロマンスコミック以外も自社の書籍を取り扱うためのサイトリニューアル。既存のデザイン、HTMLは残すという条件で、社内のシステム担当者と業務委託先と連携を取りながらUIの制作とディレクションを行いました。<br>
+                                    ロゴ制作・UIデザイン・HTML・CSS</p>
+                                    <p><a href="https://ebook.sbcr.jp" target="_blank">https://ebook.sbcr.jp</a></p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
                                         <i class="fas fa-xmark fa-fw"></i>
                                         Close Window
-                                    </button></p>
+                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -338,7 +371,7 @@
                                     <img class="img-fluid rounded mb-5" src="assets/img/portfolio/kaihocover.jpg" alt="..." />
                                     <!-- Portfolio Modal - Text-->
                                     <p class="mb-4">WEBTOONの進行管理・編集、カバーイラストディレクション、ロゴ制作、原作をもとにシナリオ制作など担当。
-                                        100話を超えるヒット作に。
+                                        100話を超えるヒット作となり、毎月黒字を達成しています。
                                     </p>
                                     <button class="btn btn-primary" data-bs-dismiss="modal">
                                         <i class="fas fa-xmark fa-fw"></i>
@@ -371,7 +404,8 @@
                                     <!-- Portfolio Modal - Image-->
                                     <img class="img-fluid rounded mb-5" src="assets/img/portfolio/kaihosns.jpg" alt="..." />
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">SNSで担当作品を盛り上げるため、企画・発信を行う。</p>
+                                    <p class="mb-4">SNSで担当コミックを盛り上げるため、投稿ポストの企画・制作・発信を積極的に行ってきました。<br>
+                                    こちらは、コミックのキャラクター紹介の記事を作成し、多くのインプレッションを獲得することができました。</p>
                                     <button class="btn btn-primary" data-bs-dismiss="modal">
                                         <i class="fas fa-xmark fa-fw"></i>
                                         Close Window
@@ -393,7 +427,7 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Controller</h2>
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">キャンペーンサイト（WEB）</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
@@ -403,7 +437,10 @@
                                     <!-- Portfolio Modal - Image-->
                                     <img class="img-fluid rounded mb-5" src="assets/img/portfolio/hq40th.jpg" alt="..." />
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    <p class="mb-4">ハーレクイン・ロマンス 日本上陸40周年記念サイト<br>
+                                    ターゲットを意識し、キレイ目やコミックという特性のワクワク感を意識しました。<br>
+                                    ワイヤーフレーム・サイトディレクション・デザイン・HTML・CSS</p>
+                                    <p><a href="https://ebook.sbcr.jp/hq40th/" target="_blank">https://ebook.sbcr.jp/hq40th/</a></p>
                                     <button class="btn btn-primary" data-bs-dismiss="modal">
                                         <i class="fas fa-xmark fa-fw"></i>
                                         Close Window
@@ -429,7 +466,7 @@
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-diamond"></i></div>
+                                        <div class="divider-custom-icon"><i・class="fas fa-diamond"></i></div>
                                         <div class="divider-custom-line"></div>
                                     </div>
                                     <!-- Portfolio Modal - Image-->
@@ -567,7 +604,7 @@
                                     <img class="img-fluid rounded mb-5" src="assets/img/portfolio/character_roma.jpg" alt="..." />
                                     <!-- Portfolio Modal - Text-->
                                     <p class="mb-4">「ロマンス ライブラリ」サイトマスコットデザイン<br>
-                                    ハーレクインでおなじみ「シーク」をモチーフに作成しました。</p>
+                                    ハーレクインでおなじみ「シーク」をモチーフに制作しました。</p>
                                     <button class="btn btn-primary" data-bs-dismiss="modal">
                                         <i class="fas fa-xmark fa-fw"></i>
                                         Close Window
@@ -599,7 +636,7 @@
                                     <!-- Portfolio Modal - Image-->
                                     <img class="img-fluid rounded mb-5" src="assets/img/portfolio/banner_comic.jpg" alt="..." />
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">コミックのバナーを多いときは月に30特集分制作していました。<br>
+                                    <p class="mb-4">コミックのバナーを多いときは月に30特集分制作を行っていました。<br>
                                     広告バナーは自分で画像の選定、キャッチコピーを作成し提案していました。</p>
                                     <button class="btn btn-primary" data-bs-dismiss="modal">
                                         <i class="fas fa-xmark fa-fw"></i>
@@ -644,7 +681,7 @@
                 </div>
             </div>
         </div>
-         <!-- Portfolio Modal 12-->
+        <!-- Portfolio Modal 12-->
         <div class="portfolio-modal modal fade" id="portfolioModal12" tabindex="-1" aria-labelledby="portfolioModal12" aria-hidden="true">
             <div class="modal-dialog modal-xl">
                 <div class="modal-content">
@@ -665,6 +702,103 @@
                                     <img class="img-fluid rounded mb-5" src="assets/img/portfolio/shinzinIntern.jpg" alt="..." />
                                     <!-- Portfolio Modal - Text-->
                                     <p class="mb-4">BUMP配信用に見やすさをロマンス性を意識したロゴのデザインと、サムネイル画像の制作を行いました。</p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 13-->
+        <div class="portfolio-modal modal fade" id="portfolioModal13" tabindex="-1" aria-labelledby="portfolioModal13" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">ライトノベル カバー・帯デザイン（紙）</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-diamond"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/tenseisyozyo.jpg" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">転生少女は救世を望まれる ～平穏を目指した私は世界の重要人物だったようです～<br>
+                                    カバー・扉・帯デザイン</p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 14-->
+        <div class="portfolio-modal modal fade" id="portfolioModal14" tabindex="-1" aria-labelledby="portfolioModal14" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">ルミネ横浜 デジタルサイネージ</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-diamond"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/lumine_floor.jpg" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">ルミネ横浜 デジタルサイネージ ワイヤーフレーム・デザイン・UI制作</p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+         <!-- Portfolio Modal 15-->
+        <div class="portfolio-modal modal fade" id="portfolioModal15" tabindex="-1" aria-labelledby="portfolioModal15" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">不覚にも敵を救ってしまった</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-diamond"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/fukakunimo.jpg" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">ロゴ制作　中華の世界観のBL作品のため、女性を意識し、中国を感じさせるようなデザインで制作しました。</p>
                                     <button class="btn btn-primary" data-bs-dismiss="modal">
                                         <i class="fas fa-xmark fa-fw"></i>
                                         Close Window
