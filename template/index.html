@@ -19,6 +19,18 @@
 
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <script>
+            function checkPassword() {
+                var password = prompt("パスワードを入力してください:");
+                if (password === "obuport25") {
+                document.getElementById("content").style.display = "block";
+                } else {
+                alert("パスワードが違います。");
+                window.location.href = "about:blank";
+                }
+            }
+            window.onload = checkPassword;
+        </script>
         <script type="text/javascript">
             function ShowNowYear() {
                var now = new Date();
